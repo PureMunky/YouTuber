@@ -3,7 +3,11 @@
     <title>YouTuber Bookmarklet</title>
   </head>
   <body>
-    Bookmark this link:
-    <a href="javascript:(function () {  var links = document.getElementsByTagName('a'),    youTubeURL = 'www.youtube.com/watch?v=',    newYouTubeURL = 'www.youtube-nocookie.com/embed/',    color = '#0F0',    i = 0;  for(i = 0; i < links.length; i++) {    if(links[i].href.indexOf(youTubeURL) > -1) {      links[i].href = links[i].href.replace(youTubeURL, newYouTubeURL);      links[i].target = '_blank';      links[i].style.border = '2px solid ' + color;      links[i].style.backgroundColor = color;    }  }})();">Bookmark Me!</a>
+    <h1>YouTuber</h1>
+    <div>
+      Drag this link to your bookmark bar:
+      <a href="javascript:(function () {  var links = document.getElementsByTagName('a'),    youTubeURL = 'www.youtube.com/watch?v=',    newYouTubeURL = 'www.youtube-nocookie.com/embed/',    color = '#0F0',    i = 0;  for(i = 0; i < links.length; i++) {    if(links[i].href.indexOf(youTubeURL) > -1) {      links[i].href = links[i].href.replace(youTubeURL, newYouTubeURL);      links[i].target = '_blank';      links[i].style.border = '2px solid ' + color;      links[i].style.backgroundColor = color;    }  }})();">YouTuber!</a>
+    </div>
+    <div><a href="https://github.com/PureMunky/YouTuber">Contribute on Github!</a></div>
   </body>
 </html>
