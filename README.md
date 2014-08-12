@@ -1,6 +1,6 @@
 YouTuber
 ========
 
-Bookmarklet for replacing youtube links and iframes with an alternative url.
+Bookmarklet for enabling YouTube links and frames through some corporate firewalls.
 
 [Instructions](http://puremunky.github.io/YouTuber/)
