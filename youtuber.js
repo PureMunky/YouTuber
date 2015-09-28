@@ -28,5 +28,9 @@
       frames[i].src = frames[i].src.replace(frameYouTubeURL, newYouTubeURL);
       frames[i].style.border = '2px solid ' + color;
     }
+    if(frames[i].dataset.recommendId.indexOf('youtube://') > -1) {
+      frames[i].src = frames[i].dataset.recommendId.replace('youtube://', 'http://www.youtube-nocookie.com/embed/');
+      frames[i].style.border = '2px solid ' + color;
+    }
   }
 })();
