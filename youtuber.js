@@ -20,6 +20,8 @@
       links[i].style.border = '2px solid ' + color;
       links[i].style.backgroundColor = color;
     }
+    
+    console.log('whatever');
   }
 
   // Iterate through the frames and replace their src with the working root url.
